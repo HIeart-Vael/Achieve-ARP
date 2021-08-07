@@ -1,0 +1,39 @@
+1.\Device\NPF_{69A4BF32-ADC1-4168-9FEC-E4251820632F}
+Microsoft   IP address: 0.0.0.0
+2.\Device\NPF_{A88DDDAF-C0AA-40E8-A055-245FEB2F7A8A}
+Microsoft   IP address: 10.24.45.253
+3.\Device\NPF_{3186D7E2-6687-4A15-886C-270904D68022}
+VMware Virtual Ethernet Adapter   IP address: 192.168.127.1
+Please enter the interface number (1~3): the number input is: 3
+Use default destination IP(192.168.127.128)? Y(y)/N(n): n
+Input the IP Address of destination: 192168127129
+The MAC Address of Adapter 3: 0-50-56-c0-0-8
+The IP Address of Adapter 3: 192.168.127.1
+The IP Address of destination: 192.168.127.129
+
+Send packet successfully
+
+Catching packets...
+
+
+message 1:
+request message.
+ARP packet length: 42
+current time: 13:05:09
+source ip: 192.168.127.1
+destination ip: 192.168.127.129
+source mac: 0-50-56-c0-0-8
+destination mac: ff-ff-ff-ff-ff-ff
+
+message 2:
+reply message.
+ARP packet length: 42
+current time: 13:05:09
+source ip: 192.168.127.129
+destination ip: 192.168.127.1
+source mac: 0-c-29-92-c9-37
+destination mac: 0-50-56-c0-0-8
+Get the MAC address of destination: 0-c-29-92-c9-37
+
+End of catching...
+
